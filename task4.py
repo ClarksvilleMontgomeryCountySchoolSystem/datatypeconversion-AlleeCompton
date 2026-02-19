@@ -4,4 +4,7 @@ print(bool("False"))
 
 # Can you find a string that converts to False using bool()?
 # Experiment below:
-print(False)
+print(bool("True"))
+print(bool("bool"))
+print(bool("false"))
+print(bool("")) #This one returned False
